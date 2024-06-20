@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Para centralizar verticalmente na página */
+}
+
+.container {
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.container p {
+    font-size: 24px; /* Exemplo de tamanho de fonte */
+}
