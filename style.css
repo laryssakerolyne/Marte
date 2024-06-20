@@ -12,3 +12,24 @@ body {
 .container p {
     font-size: 24px; /* Exemplo de tamanho de fonte */
 }
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-container {
+    height: 100%;
+    background-image: url('Martevida.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Cor do texto */
+}
+
+.background-container h1 {
+    font-size: 2em; /* Tamanho do texto */
+}
